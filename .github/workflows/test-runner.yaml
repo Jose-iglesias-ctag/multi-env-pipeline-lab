@@ -7,7 +7,7 @@ jobs:
   test:
   name: Test Runner & Cluster Access
   runs-on: self-hosted
-  steps:
+steps:
 - name: Checkout code
     uses: actions/checkout@v4
     
